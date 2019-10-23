@@ -1,0 +1,25 @@
+import pandas as pd
+df=pd.read_csv("iris23.csv")       
+df
+freq_df=df['sepal.length(cm)'].value_counts()
+freq_df
+freq_df=df['sepal.width(cm)'].value_counts()
+freq_df
+freq_df=df['petal.length(cm)'].value_counts()
+freq_df
+freq_dffreq_df=df['petal.width(cm)'].value_counts()
+freq_df
+df.dtypes
+df.columns
+df.variety
+df.describe()
+df[df.Target==1].head(50)
+df
+df[df.Target==2].head(50)
+df
+df[df.Target==3].head(50)
+df
+df['sepal.length(cm)'].plot.hist()
+df['sepal.width(cm)'].plot.hist()
+df['petal.length(cm)'].plot.hist()
+df['petal.length(cm)'].plot.hist()
