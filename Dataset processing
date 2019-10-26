@@ -1,7 +1,7 @@
 #Describing the properties of dataset by using histogram,frequency 
 import pandas as pd
 
-df=pd.read_csv("iris99.csv") 
+df=pd.read_csv("iris23.csv") 
 df
 
 freq_df=df['sepal.length(cm)'].value_counts()
