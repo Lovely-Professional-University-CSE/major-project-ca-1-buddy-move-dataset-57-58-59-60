@@ -81,3 +81,13 @@ plt.scatter(df2['petal.length'],df2['petal.width'],color='yellow',marker='+')
 
 plt.xlabel('petal.length')
 plt.ylabel('petal.width')
+
+import matplotlib.image as mpimg
+%matplotlib inline
+
+img=mpimg.imread('IRIS.jpg')
+
+plt.figure(figsize=(20,40))
+
+plt.axis('off')
+plt.imshow(img)
