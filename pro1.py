@@ -22,3 +22,6 @@ sample_no = np.random.randint(0,len(pattern))
 
 print("Sample pattern: " + str(pattern[int(sample_no)]))
 print("Class of the above pattern: " + str(classes[int(sample_no)]))
+
+
+
