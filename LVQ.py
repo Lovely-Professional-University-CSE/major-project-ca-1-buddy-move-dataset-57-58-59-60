@@ -56,7 +56,7 @@ def main_trains(wt,alpha,data,epoch,epochnow):
     class_data = data[4]
     win_class = winner[4]
     runner_up_class = runner[4]
-    if (np.amin(res2) > ((1 - 0.2)*(1 + 0.2))):#LVQ3.0
+    if (np.amin(res2) > ((1 - 0.2)*(1 + 0.2))):
         print("CHANGE!")
         if ((class_data == win_class) or (class_data == runner_up_class)):
             for w in range(len(winner) - 1):
