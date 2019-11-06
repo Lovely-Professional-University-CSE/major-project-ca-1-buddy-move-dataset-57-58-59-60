@@ -5,7 +5,7 @@ data_uji = np.genfromtxt(r'C:\Users\amrut\Desktop\LVQ-Iris-master\iris_test.csv'
 weight = np.array(
     [[5.0, 3.6, 1.4, 0.2, 1],
      [7.0, 3.2, 4.7, 1.4, 2],
-     [6.3, 3.3, 6.0, 2.5, 3]]
+     [6.3, 3.3, 6.0, 2.5, 3]]}
 )
 
 #training
