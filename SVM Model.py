@@ -33,6 +33,7 @@ df
 df[df.Target==3].head(50)
 df
 
+#histogram
 df['sepal.length(cm)'].plot.hist()
 
 df['sepal.width(cm)'].plot.hist()
@@ -64,6 +65,7 @@ df1.head()
 df2=df[df.Target==3]
 df2.head()
 
+#scatter plot
 plt.scatter(df0['sepal.length'],df0['sepal.width'],color='green',marker='+')
 
 plt.scatter(df1['sepal.length'],df1['sepal.width'],color='blue',marker='+')
