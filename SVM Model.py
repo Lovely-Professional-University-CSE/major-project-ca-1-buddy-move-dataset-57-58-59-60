@@ -101,23 +101,23 @@ X
 y = df['variety'].values
 y
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)# here we are taking test size as 20
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
-len(X_train)
-len(X_test)
+len(X_train)#120
+len(X_test)#30
 
 from sklearn.svm import SVC
-svcclassifier = SVC(kernel = 'linear', random_state = 82)
+svcclassifier = SVC(kernel = 'linear', random_state = 90)
 svcclassifier.fit(X_train, y_train)
 y_pred = svcclassifier.predict(X_test)
 print(y_pred)
 svcclassifier.score(X_test,y_test)
 
 from sklearn.svm import SVC
-svcclassifier = SVC(kernel = 'poly', random_state = 82)
+svcclassifier = SVC(kernel = 'poly', random_state = 78)
 svcclassifier.fit(X_train, y_train)
 y_pred = svcclassifier.predict(X_test)
 print(y_pred)
@@ -125,16 +125,15 @@ svcclassifier.score(X_test,y_test)
 
 
 from sklearn.svm import SVC
-svcclassifier = SVC(kernel = 'rbf', random_state = 82)
+svcclassifier = SVC(kernel = 'rbf', random_state = 40)
 svcclassifier.fit(X_train, y_train)
 y_pred = svcclassifier.predict(X_test)
 print(y_pred)
 svcclassifier.score(X_test,y_test)
 
 
-
 from sklearn.svm import SVC
-svcclassifier = SVC(kernel = 'sigmoid', random_state = 82)
+svcclassifier = SVC(kernel = 'sigmoid', random_state = 50)
 svcclassifier.fit(X_train, y_train)
 y_pred = svcclassifier.predict(X_test)
 print(y_pred)
