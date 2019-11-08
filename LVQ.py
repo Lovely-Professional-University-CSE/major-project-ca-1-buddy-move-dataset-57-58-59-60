@@ -9,7 +9,7 @@ weight = np.array(
 )
 
 #training
-def main_trains(wt,alpha,data,epoch,epochnow):
+##def main_trains(wt,alpha,data,epoch,epochnow):
 
     cl_A = 0
     cl_B = 0
