@@ -1,7 +1,7 @@
 import numpy as np
 import math as mt
-data = np.genfromtxt(r'C:\Users\amrut\Desktop\LVQ-Iris-master\iris.csv',delimiter=';')#data latih
-data_uji = np.genfromtxt(r'C:\Users\amrut\Desktop\LVQ-Iris-master\iris_test.csv',delimiter=';')#data uji
+data = np.genfromtxt(r'C:\Users\amrut\Desktop\LVQ-Iris-Master\iris.csv',delimiter=';')#data latih
+data_uji = np.genfromtxt(r'C:\Users\amrut\Desktop\LVQ-Iris-Master\iris_test.csv',delimiter=';')#data uji
 weight = np.array(
     [[5.0, 3.6, 1.4, 0.2, 1],
      [7.0, 3.2, 4.7, 1.4, 2],
