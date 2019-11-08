@@ -84,7 +84,7 @@ plt.scatter(df2['petal.length'],df2['petal.width'],color='yellow',marker='+')
 plt.xlabel('petal.length')
 plt.ylabel('petal.width')
 
-import matplotlib.image as mpimg
+import matplotlib.image as mpimg #for image representation
 %matplotlib inline
 
 img=mpimg.imread('IRIS.jpg')
@@ -103,6 +103,8 @@ X
 y = df['variety'].values
 y
 
+
+#testing and training started
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)# here we are taking test size as 20
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
