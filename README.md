@@ -1,4 +1,4 @@
-# IRIS-DATASET-57-58-59-60
+# MODIFIED-IRIS-DATASET 57-58-59-60
 This is a project on Iris Dataset
 
 ## Data Set Information:
@@ -11,7 +11,8 @@ This is perhaps the best known database to be found in the pattern recognition l
 2. sepal width in cm
 3. petal length in cm
 4. petal width in cm
-5. class:
+5. Target(1-Setosa,2-Versicolor,3-Virginica)
+6. class:
 -- Iris Setosa
 -- Iris Versicolour
 -- Iris Virginica
