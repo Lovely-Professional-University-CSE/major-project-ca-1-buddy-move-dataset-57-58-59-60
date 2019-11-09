@@ -37,4 +37,4 @@ def test_data(wt,data):
                 right+=1
             else:
                 wrong+=1
-    print("Models Accuracy = "+ str((float(right)/(right+wrong))*100) +"%")
+   
